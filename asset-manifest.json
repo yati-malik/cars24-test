@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cars24-test/static/css/main.864b13fe.chunk.css",
-    "main.js": "/cars24-test/static/js/main.5884ab02.chunk.js",
-    "main.js.map": "/cars24-test/static/js/main.5884ab02.chunk.js.map",
+    "main.js": "/cars24-test/static/js/main.ffeea2dc.chunk.js",
+    "main.js.map": "/cars24-test/static/js/main.ffeea2dc.chunk.js.map",
     "runtime-main.js": "/cars24-test/static/js/runtime-main.93c32d6a.js",
     "runtime-main.js.map": "/cars24-test/static/js/runtime-main.93c32d6a.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/cars24-test/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.e9b90a0e.chunk.js": "/cars24-test/static/js/2.e9b90a0e.chunk.js",
     "static/js/2.e9b90a0e.chunk.js.map": "/cars24-test/static/js/2.e9b90a0e.chunk.js.map",
     "index.html": "/cars24-test/index.html",
-    "precache-manifest.0b02162c369a5c71576b5289eddb1db3.js": "/cars24-test/precache-manifest.0b02162c369a5c71576b5289eddb1db3.js",
+    "precache-manifest.cf5103b441955c38ab36d3d17d8e6bb1.js": "/cars24-test/precache-manifest.cf5103b441955c38ab36d3d17d8e6bb1.js",
     "service-worker.js": "/cars24-test/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/cars24-test/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.864b13fe.chunk.css.map": "/cars24-test/static/css/main.864b13fe.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.e9b90a0e.chunk.js",
     "static/css/main.864b13fe.chunk.css",
-    "static/js/main.5884ab02.chunk.js"
+    "static/js/main.ffeea2dc.chunk.js"
   ]
 }
