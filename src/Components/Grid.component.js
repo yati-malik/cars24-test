@@ -2,12 +2,11 @@ import React from "react";
 import getProducts from "../API/ProductsAPI";
 import Sidebar from "./Sidebar.component";
 import Searchbar from "./Searchbar.component";
-import { toast } from 'react-toastify';
 
 class ProductGrid extends React.Component {
   constructor() {
     super();
-    this.state = { products: [] };
+    this.state = { products: [], startPrice: 0, endPrice: 0, searchName: "" };
     this.currentPage = 1;
     this.sideBar = React.createRef();
     this.searchBar = React.createRef();
@@ -19,10 +18,8 @@ class ProductGrid extends React.Component {
 
   getProducts = (page) => {
     getProducts(page).then((products) => {
-      let prevProducts = this.state.products;
-      if (this.currentPage === 1) {
-        this.setState({ products: products.Products });
-      } else {
+      if (products != undefined) {
+        let prevProducts = this.state.products;
         let currentProducts = [...prevProducts, ...products.Products];
         this.setState({ products: currentProducts });
       }
@@ -48,28 +45,19 @@ class ProductGrid extends React.Component {
   };
 
   handleReset = () => {
-    this.currentPage = 1;
     this.sideBar.current.reset();
     this.searchBar.current.reset();
-    this.getProducts(this.currentPage);
+    this.setState({ startPrice: 0, endPrice: 0, searchName: "" });
   };
 
   handleSearchCriteria = (criteria) => {
     let startPrice = criteria.startPrice;
     let endPrice = criteria.endPrice;
-    let currentProducts = this.state.products;
-    let filteredProducts = currentProducts.filter(
-      (product) => product.Amount >= startPrice && product.Amount < endPrice
-    );
-    this.setState({ products: filteredProducts });
+    this.setState({ startPrice: startPrice, endPrice: endPrice });
   };
 
   handleProductSearch = (name) => {
-    let products = this.state.products;
-    let filterProducts = products.filter((product) =>
-      product.Name.toUpperCase().includes(name.toUpperCase())
-    );
-    this.setState({ products: filterProducts });
+    this.setState({ searchName: name });
   };
 
   render() {
@@ -98,16 +86,36 @@ class ProductGrid extends React.Component {
               ref={(loadingRef) => (this.loadingRef = loadingRef)}
             >
               <div ref={(targetRef) => (this.targetRef = targetRef)}>
-                {this.state.products.map((product) => {
-                  return (
-                    <div className="product" key={product.Id}>
-                      <div className="col-item">{product.Name}</div>
-                      <div className="col-item">{product.Category}</div>
-                      <div className="col-item">{product.Amount}</div>
-                      <div className="col-item">{product.Payment}</div>
-                    </div>
-                  );
-                })}
+                {this.state.products
+                  .filter((product) => {
+                    let isPriceValid = true;
+                    if (
+                      !(
+                        this.state.startPrice === 0 && this.state.endPrice === 0
+                      )
+                    ) {
+                      if (
+                        this.state.startPrice > product.Amount ||
+                        this.state.endPrice < product.Amount
+                      ) {
+                        return false;
+                      }
+                    }
+
+                    return product.Name.toUpperCase().includes(
+                      this.state.searchName.toUpperCase()
+                    );
+                  })
+                  .map((product) => {
+                    return (
+                      <div className="product" key={product.Id}>
+                        <div className="col-item">{product.Name}</div>
+                        <div className="col-item">{product.Category}</div>
+                        <div className="col-item">{product.Amount}</div>
+                        <div className="col-item">{product.Payment}</div>
+                      </div>
+                    );
+                  })}
               </div>
             </div>
           </div>
