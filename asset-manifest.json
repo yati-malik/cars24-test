@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cars24-test/static/css/main.864b13fe.chunk.css",
-    "main.js": "/cars24-test/static/js/main.b4bd751b.chunk.js",
-    "main.js.map": "/cars24-test/static/js/main.b4bd751b.chunk.js.map",
+    "main.css": "/cars24-test/static/css/main.dc35fb52.chunk.css",
+    "main.js": "/cars24-test/static/js/main.1e06c2a0.chunk.js",
+    "main.js.map": "/cars24-test/static/js/main.1e06c2a0.chunk.js.map",
     "runtime-main.js": "/cars24-test/static/js/runtime-main.93c32d6a.js",
     "runtime-main.js.map": "/cars24-test/static/js/runtime-main.93c32d6a.js.map",
-    "static/css/2.8aa5a7f8.chunk.css": "/cars24-test/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.e9b90a0e.chunk.js": "/cars24-test/static/js/2.e9b90a0e.chunk.js",
-    "static/js/2.e9b90a0e.chunk.js.map": "/cars24-test/static/js/2.e9b90a0e.chunk.js.map",
+    "static/css/2.d34346ea.chunk.css": "/cars24-test/static/css/2.d34346ea.chunk.css",
+    "static/js/2.90107416.chunk.js": "/cars24-test/static/js/2.90107416.chunk.js",
+    "static/js/2.90107416.chunk.js.map": "/cars24-test/static/js/2.90107416.chunk.js.map",
     "index.html": "/cars24-test/index.html",
-    "precache-manifest.c1b34268669e414ad7f0ddbfda52192c.js": "/cars24-test/precache-manifest.c1b34268669e414ad7f0ddbfda52192c.js",
+    "precache-manifest.b9b123b39986f6746586c89add88adb8.js": "/cars24-test/precache-manifest.b9b123b39986f6746586c89add88adb8.js",
     "service-worker.js": "/cars24-test/service-worker.js",
-    "static/css/2.8aa5a7f8.chunk.css.map": "/cars24-test/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.864b13fe.chunk.css.map": "/cars24-test/static/css/main.864b13fe.chunk.css.map",
-    "static/js/2.e9b90a0e.chunk.js.LICENSE.txt": "/cars24-test/static/js/2.e9b90a0e.chunk.js.LICENSE.txt"
+    "static/css/2.d34346ea.chunk.css.map": "/cars24-test/static/css/2.d34346ea.chunk.css.map",
+    "static/css/main.dc35fb52.chunk.css.map": "/cars24-test/static/css/main.dc35fb52.chunk.css.map",
+    "static/js/2.90107416.chunk.js.LICENSE.txt": "/cars24-test/static/js/2.90107416.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.93c32d6a.js",
-    "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.e9b90a0e.chunk.js",
-    "static/css/main.864b13fe.chunk.css",
-    "static/js/main.b4bd751b.chunk.js"
+    "static/css/2.d34346ea.chunk.css",
+    "static/js/2.90107416.chunk.js",
+    "static/css/main.dc35fb52.chunk.css",
+    "static/js/main.1e06c2a0.chunk.js"
   ]
 }
