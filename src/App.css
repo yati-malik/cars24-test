@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.app-container{
+  display: grid;
+  grid-template-columns: 15% auto;
+  grid-template-rows: 15% auto;
+  grid-template-areas: 
+  "sidebar header"
+  "sidebar main";
+  align-items: stretch;
+  justify-items: stretch;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.sidebar {
+  grid-area: sidebar;
+  padding-left: 10px;
+  background-color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar{
+  grid-area: header;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: cadetblue;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-container {
+  grid-area: main;
+  background-color: honeydew;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.product{
+  display: flex;
+  padding-left: 10px;
+  border-bottom: 1px solid lightblue;
+  border-top: 1px solid lightblue;
+  justify-content: space-around;
+}
+
+.thead-container{
+  border-bottom: 2px solid green;
+  background-color: hotpink;
+}
+
+.custom-table thead th{
+   position: sticky;
+   top: 0px;
+}
+
+.tbody-container{
+    line-height: 2;
+    border: 2px solid;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.custom-table{
+  overflow-y: scroll; 
+  height: 100px;
+}
+
+.productDiv{
+  height: 200px;
+  overflow-y: scroll;
+  background-color: snow;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.apply{
+  margin-top: 4px;
+}
+
+input[type="number"] {
+  width: 92%;
+} 
+
+.reset{
+  margin-left: 20px;
+  width: 100px;
+  background-color: white;
+  border: 2px solid hotpink;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.col-item{
+  width: 25%;
+}
+
+input[type="text"], input[type="number"]{
+  border-radius: 11px;
+  padding: 6px 0px 6px 10px;
+  border: 1px solid black;
+  outline: none;
+}
+
+input[type="button"] {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: white;
+    border: 1px solid #2d6898;
+    border-radius: 11px;
+    font-size: inherit;
+    outline: none;
+}
+
+input[type="button"]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  margin-left: 20px;
 }
