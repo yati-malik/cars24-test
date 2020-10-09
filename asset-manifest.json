@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/cars24-test/static/css/main.864b13fe.chunk.css",
-    "main.js": "/cars24-test/static/js/main.30859c30.chunk.js",
-    "main.js.map": "/cars24-test/static/js/main.30859c30.chunk.js.map",
+    "main.js": "/cars24-test/static/js/main.cbad568e.chunk.js",
+    "main.js.map": "/cars24-test/static/js/main.cbad568e.chunk.js.map",
     "runtime-main.js": "/cars24-test/static/js/runtime-main.93c32d6a.js",
     "runtime-main.js.map": "/cars24-test/static/js/runtime-main.93c32d6a.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/cars24-test/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.58d45838.chunk.js": "/cars24-test/static/js/2.58d45838.chunk.js",
-    "static/js/2.58d45838.chunk.js.map": "/cars24-test/static/js/2.58d45838.chunk.js.map",
+    "static/js/2.e9b90a0e.chunk.js": "/cars24-test/static/js/2.e9b90a0e.chunk.js",
+    "static/js/2.e9b90a0e.chunk.js.map": "/cars24-test/static/js/2.e9b90a0e.chunk.js.map",
     "index.html": "/cars24-test/index.html",
-    "precache-manifest.527edddb6a6f4d5febc1158b32b3ca90.js": "/cars24-test/precache-manifest.527edddb6a6f4d5febc1158b32b3ca90.js",
+    "precache-manifest.7c7cdd242ad40d0b2032d55720c80173.js": "/cars24-test/precache-manifest.7c7cdd242ad40d0b2032d55720c80173.js",
     "service-worker.js": "/cars24-test/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/cars24-test/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.864b13fe.chunk.css.map": "/cars24-test/static/css/main.864b13fe.chunk.css.map",
-    "static/js/2.58d45838.chunk.js.LICENSE.txt": "/cars24-test/static/js/2.58d45838.chunk.js.LICENSE.txt"
+    "static/js/2.e9b90a0e.chunk.js.LICENSE.txt": "/cars24-test/static/js/2.e9b90a0e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.93c32d6a.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.58d45838.chunk.js",
+    "static/js/2.e9b90a0e.chunk.js",
     "static/css/main.864b13fe.chunk.css",
-    "static/js/main.30859c30.chunk.js"
+    "static/js/main.cbad568e.chunk.js"
   ]
 }
