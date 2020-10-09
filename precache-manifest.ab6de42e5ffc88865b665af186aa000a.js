@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c88718fe133ee99b8320709ea2c23dc",
+    "revision": "44808a67c88effe2de174a5d66ccc5c8",
     "url": "/cars24-test/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cars24-test/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "88d0c80dda4cba74ddd1",
+    "revision": "32a2e9cf370f0176ffc3",
     "url": "/cars24-test/static/css/main.864b13fe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cars24-test/static/js/2.e9b90a0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "88d0c80dda4cba74ddd1",
-    "url": "/cars24-test/static/js/main.1db0ac00.chunk.js"
+    "revision": "32a2e9cf370f0176ffc3",
+    "url": "/cars24-test/static/js/main.9a1291ad.chunk.js"
   },
   {
     "revision": "dbbf15436dbd0f24189d",
