@@ -1,7 +1,7 @@
 import React from "react";
 import getProducts from "../API/ProductsAPI";
-import Sidebar from "./Sidebar.component";
-import Searchbar from "./Searchbar.component";
+import Sidebar from "./Sidebar";
+import Searchbar from "./Searchbar";
 
 class ProductGrid extends React.Component {
   constructor() {

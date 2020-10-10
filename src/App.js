@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import ProductGrid from "./Components/Grid.component";
+import ProductGrid from "./Components/Grid";
 
 
 function App() {
