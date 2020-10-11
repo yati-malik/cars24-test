@@ -1,11 +1,14 @@
 import React from "react";
 import "./App.css";
-import ProductGrid from "./Components/Grid";
-
+import HomePage from "./Container/HomePage/homePage";
+import store from './Redux/Store/store';
+import { Provider as ReduxProvider } from "react-redux";
 
 function App() {
   return (
-        <ProductGrid />
+    <ReduxProvider store={store}>
+      <HomePage />
+    </ReduxProvider>
   );
 }
 

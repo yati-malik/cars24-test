@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar /> renders correctly 1`] = `
+<div
+  className="sidebar"
+>
+  <div
+    className="Toastify"
+  />
+  <h2>
+    Search Criteria
+  </h2>
+  <hr />
+  <div>
+    <div>
+      <span
+        className="bold"
+      >
+        Price range
+      </span>
+    </div>
+    <div>
+      <label>
+        Start Price
+      </label>
+      <input
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+    </div>
+    <div>
+      <label>
+        End Price
+      </label>
+      <input
+        onChange={[Function]}
+        type="number"
+        value={0}
+      />
+    </div>
+    <div
+      className="apply"
+    >
+      <input
+        onClick={[Function]}
+        type="button"
+        value="Apply"
+      />
+    </div>
+  </div>
+</div>
+`;

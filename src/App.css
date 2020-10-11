@@ -104,6 +104,11 @@ input[type="text"], input[type="number"]{
   outline: none;
 }
 
+input[type="number"]{
+  font-family: sans-serif;
+  font: caption;
+} 
+
 input[type="button"] {
     text-decoration: none;
     color: black;
@@ -122,4 +127,17 @@ input[type="button"]:hover {
 
 .search {
   margin-left: 20px;
+  height: 36px;
+}
+
+.search-box{
+  width: 40%;
+  height: 22px;
+  font-family: 'Source Sans Pro';
+  font-size: larger;
+}
+
+.search-container {
+  width: 60%;
+  text-align: center;
 }
