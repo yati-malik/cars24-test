@@ -79,9 +79,6 @@
   margin-top: 4px;
 }
 
-input[type="number"] {
-  width: 92%;
-} 
 
 .reset{
   margin-left: 20px;
@@ -107,6 +104,7 @@ input[type="text"], input[type="number"]{
 input[type="number"]{
   font-family: sans-serif;
   font: caption;
+  width: 92%;
 } 
 
 input[type="button"] {

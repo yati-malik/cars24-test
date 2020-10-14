@@ -27,11 +27,10 @@ class ProductGrid extends React.Component {
 
   scrollHandler = (e) => {
     let h = this.loadingRef,
-      b = document.body,
       st = "scrollTop",
       sh = "scrollHeight";
-    let percentageLoaded =
-      ((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight)) * 100;
+    let percentageLoaded = (h[st] / (h[sh]  - h.clientHeight)) * 100;
+    console.log(percentageLoaded);
     if (percentageLoaded > 73) {
       this.currentPage += 1;
       this.getProducts(this.currentPage);
